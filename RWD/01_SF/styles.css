@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana;
+    font-size: 17px;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    display: block;
+}
+
+input {
+    margin: 10px 0;
+}
+
+select {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    font-size: 17px;
+}

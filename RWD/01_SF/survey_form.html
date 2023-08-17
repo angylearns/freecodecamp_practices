@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Title</h1>
+    <p id="description">Blabla</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Nombre: <input id="name" type="text" placeholder="Write a name" required></input></label>
+      <label for="email" id="email-label">Email: <input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Write an email" required></input></label>
+      <label for="number" id="number-label">Number: <input id="number" type="number" pattern="[0-9]" min="1" max="22" placeholder="Write a number"></input></label>
+      <select id="dropdown">
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+     <label for="time">Daytime <input name="time" type="radio" value="daytime"></input></label>
+     <label for="time">Nightime <input name="time" type="radio" value="nightime"></input></label>
+     <br>
+      <label for="dream">Dream </label><input type="checkbox" value="dream"></input>
+      <label for="no-dream">No dream </label><input type="checkbox" value="no-dream"></input>
+      <textarea rows="4" cols="55" placeholder="You got anything to say?"></textarea>
+    <input type="submit" id="submit" value="Submit"></input>
+    </form>
+  </body>
+</html>
