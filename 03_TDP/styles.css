@@ -1,0 +1,27 @@
+html {
+font-family: Verdana;
+box-sizing: content-box;  
+display: flex;
+}
+
+.main-section {
+padding: 10px;
+margin: 10px; background-color: lightgray;
+border-radius: 10px;
+flex-wrap:wrap;
+}
+
+.main-section header {
+text-align: center;
+font-weight: bold;
+}
+
+code {
+padding: 20px;
+}
+
+@media (min-width: 1024px) {
+#navbar {
+    /* Didn't know how to do this step: "On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user", but I'll look into it.*/
+}
+}
