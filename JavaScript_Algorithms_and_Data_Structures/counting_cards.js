@@ -38,4 +38,4 @@ function cc(card) {
     // Only change code above this line
 }
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+cc(2); cc(3); cc(7); cc('K'); cc('A'); // output: 1 Bet; 2 Bet; 2 Bet; 1 Bet; 0 Hold

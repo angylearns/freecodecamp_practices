@@ -52,7 +52,7 @@ for (let i = 0; i < contacts.length; i++) {
 // Only change code above this line
 }
   
-lookUpProfile("Akira", "likes");
+lookUpProfile("Akira", "likes"); // output: [ 'Pizza', 'Coding', 'Brownie Points' ]
 
 // Explanation of the part of the code I didn't understand (as I had to refer to the solution when I was ALMOST there):
 // If the firstName parameter isn’t matched by the final contacts object, the for loop exits and No such contact is returned.

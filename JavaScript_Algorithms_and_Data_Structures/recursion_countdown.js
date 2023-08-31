@@ -21,4 +21,4 @@ function countdown(n){
   }
   // Only change code above this line
 
-countdown(5); // output: [5, 4, 3, 2, 1]
+countdown(5); // output: [ 5, 4, 3, 2, 1 ]

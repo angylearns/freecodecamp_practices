@@ -13,3 +13,5 @@ function sum(arr, n) {
       }
     // Only change code above this line
   }
+
+sum([1,2,3,4], 4); // output: 10
