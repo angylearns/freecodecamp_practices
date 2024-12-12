@@ -66,10 +66,11 @@ function getGrade(score) {
     {min: 60, max: 69, grade: "D"},
     {min: 0, max: 59, grade: "F"}
     ]
+    
     for (const { min, max, grade} of gradeTable) {
-    if (score >= min && score <= max) {
-        return grade;
-    }
+        if (score >= min && score <= max) {
+            return grade;
+        }
     }
 }
 
