@@ -55,6 +55,26 @@ function getGrade(score) {
 }
 
 /*
+A SUPERCOOL way to do this ↑, with destructuring:
+
+function getGrade(score) {
+    gradeTable = [
+    {min: undefined, max: 100, grade: "A++"},
+    {min: 90, max: 99, grade: "A"},
+    {min: 80, max: 89, grade: "B"},
+    {min: 70, max: 79, grade: "C"},
+    {min: 60, max: 69, grade: "D"},
+    {min: 0, max: 59, grade: "F"}
+    ]
+    for (const { min, max, grade} of gradeTable) {
+    if (score >= min && score <= max) {
+        return grade;
+    }
+    }
+}
+
+---
+
 Step 3️⃣.
 
 The teacher is really happy with the program you have created so far.
