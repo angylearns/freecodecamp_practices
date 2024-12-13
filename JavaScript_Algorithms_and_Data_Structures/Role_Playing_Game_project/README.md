@@ -1,4 +1,4 @@
-# JavaScript RPG
+# JavaScript RPG (in progress)
 
 How it should look:
 
